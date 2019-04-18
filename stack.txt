@@ -1,2 +1,0 @@
-Server = NodeJS + Express + Morgan + EJS + Jest
-Client = React + Jest
