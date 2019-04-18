@@ -9,7 +9,10 @@
     "start": "concurrently --kill-others \"npm run server\" \"npm run client\"",
     "test-client": "cd client && npm run test",
     "test-server": "cd server && jest",
-    "test": "npm run test-client && npm run test-server"
+    "test": "npm run test-client && npm run test-server",
+    "install-client": "cd client && npm install",
+    "install-server": "cd server && npm install",
+    "install": "npm run install-client && npm run install-server"
   },
   "keywords": [],
   "author": "",
